@@ -35,3 +35,14 @@ str = 'This is a string'
 print(str[4:])
 
 print(str.split(' '))
+
+
+# dictionaries
+dict =  {
+  'bill': 'bill@gmail.com',
+  'joe': 'joe@gmail.com',
+  'sally': 'sally@gmail.com'
+}
+
+for name, email in dict.items():
+  print(name, email)
