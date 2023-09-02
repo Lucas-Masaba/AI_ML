@@ -46,3 +46,12 @@ dict =  {
 
 for name, email in dict.items():
   print(name, email)
+
+# sets
+# A set contains unique elements of which the order is not important
+s = set()
+s.add(1)
+s.add(2)
+s.remove(1)
+s.add(2)
+print(s)
