@@ -55,3 +55,11 @@ s.add(2)
 s.remove(1)
 s.add(2)
 print(s)
+
+# list comprehension
+lc = [num for num in range(1, 6) if num % 2 == 0]
+print(lc)
+
+# lambda
+lam = lambda x: x * 2
+print(lam(2))
