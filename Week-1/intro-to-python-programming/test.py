@@ -1,3 +1,8 @@
+import numpy as np
+
+q = np.array([1, 2, 3])
+print(q)
+
 def test(a, b):
   if(a > b):
     return "{} {}".format("oh", "yeah")
